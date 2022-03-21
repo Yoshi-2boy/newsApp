@@ -109,6 +109,16 @@ const AboutContainer = (props) => {
                         label={"　画面遷移時の値受け渡しのため。"}
                     />
                 </div>
+                <div className="sectionWrap">
+                    <Label
+                        className="section"
+                        label={"GitHub"}
+                    />
+                    <Label
+                        className="contents"
+                        label={"　プロジェクト管理のため。"}
+                    />
+                </div>
             </div>
             <Label
                 wrapClassName={"scrollToTopArea"}
