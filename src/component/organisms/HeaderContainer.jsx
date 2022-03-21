@@ -11,11 +11,11 @@ const HeaderContainer = (props) => {
     const navigate = useNavigate();
 
     const onClickHome = () => {
-        navigate("/home");
+        navigate("/newsApp");
     }
 
     const onClickAbout = () => {
-        navigate("/about");
+        navigate("/newsApp/about");
     }
 
     const onClickNews = () => {
@@ -38,12 +38,12 @@ const HeaderContainer = (props) => {
 
         };
         fetchData();
-        navigate("/news");
+        navigate("/newsApp/news");
     }
 
     return (
         <header className="header">
-            <h1 className="headerItems">
+            <h1 className="headerItems" onClick={onClickHome}>
                 <a className="headerTilte1">ポートフォリオ</a>
                 <a className="headerTilte2">portfolio</a>
             </h1>

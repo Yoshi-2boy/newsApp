@@ -15,9 +15,9 @@ export default class App extends Component {
     return (
       <BrowserRouter>
         <Routes>
-          <Route exact path="/home" element={<Home />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/about" element={<About />} />
+          <Route exact path="/newsApp" element={<Home />} />
+          <Route path="/newsApp/news" element={<News />} />
+          <Route path="/newsApp/about" element={<About />} />
           <Route element={<NotFound />} />{/* ←pathを指定しない */}
         </Routes>
       </BrowserRouter>

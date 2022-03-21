@@ -13,7 +13,7 @@ const HomeContainer = (props) => {
     const navigate = useNavigate();
 
     const onClickAbout = () => {
-        navigate("/about");
+        navigate("/newsApp/about");
     }
 
     const onClickNews = () => {
@@ -36,7 +36,7 @@ const HomeContainer = (props) => {
 
         };
         fetchData();
-        navigate("/news");
+        navigate("/newsApp/news");
     }
 
     return (
